@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/paraosite.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #191919;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.portfolio span{
+    color:#f9004d;
+}
+
+li{
+    color: white;
+    list-style: nome;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+li:hover{
+    color: #f9004d;
+    transition: 0.5s;
+}
+
+.meu-nome{
+    position: absolute;
+    top: 50%;
+    left:7%;
+}
+
+h1{
+    color: white;
+    font-size: 75px;
+}
+
+h1 span{
+    color: #f9004d;
+}
+
+.meu-nome h3{
+    color: white;
+    font-size: 25px;
+}
